@@ -1,0 +1,47 @@
+html, body 
+
+
+nav {
+    background:blueviolet ; padding: 0px;
+}
+
+nav ul {
+    float: right; margin-right: 40px ; position: relative;
+}
+
+nav ul li {
+    position: relative; list-style-type: none; display:inline-block; border: solid 1px white; border-radius: 15px;
+    cursor: pointer;
+}
+nav ul ul {
+    position: absolute; padding: 0px; display: none; border-radius: 15px; background: blueviolet;
+    cursor: pointer;
+
+}
+nav ul li:hover ul {
+display: block; cursor: pointer;
+}
+
+nav ul ul li{
+    position: relative;  display: block; border-radius: 15px; cursor: pointer;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    background: ;
+    color: white;
+    padding: 10px 25px;
+    line-height: 10px ;
+    display: block;
+   
+}
+
+nav ul li a:hover{
+    background: blue ;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
